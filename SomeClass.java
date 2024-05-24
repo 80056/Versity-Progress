@@ -18,7 +18,7 @@ public class SomeClass {
         System.out.println("I borrow "+c+" form a constructor");
     }
 }
- class Main {
+class Main {
     public static void main(String[] args) {
         SomeClass s = new SomeClass(5,6.3);
         s.someMethod();
